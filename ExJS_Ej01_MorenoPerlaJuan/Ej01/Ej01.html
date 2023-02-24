@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="author" content="Juan Moreno Perla">
+		<meta charset="UTF-8">
+		<title>Ejercicio01</title>
+	</head>
+	<body>
+		<form name="Formulario" id="Formulario" action="" method="">
+			<fieldset>
+				<label for="NombreCompleto">Nombre y Apellidos</label>
+				<input type="text" name="Nombre" id="NombreCompleto">
+<br/>
+<br/>
+				<label for="Telefono">Teléfono</label>
+				<input type="text" name="Telefono" id="Telefono">
+<br/>
+<br/>
+				<label for="Contrasenia">Contraseña</label>
+				<input type="password" name="Contrasenia" id="Contrasenia">
+<br/>
+<br/>		
+				<label for="ContraseniaRepetida">Vuelve a introducir la contraseña</label>
+				<input type="password" name="ContraseniaRepetida" id="ContraseniaRepetida">
+<br/>
+<br/>
+				<label for="CorreoElectronico">Dirección de correo electrónico</label>
+				<input type="email" name="CorreoElectronico" id="CorreoElectronico">
+<br/>
+<br/>
+				<label for="Profesion">Profesión</label>
+				<select name="Profesion" id="Profesion">
+					<option>Selecciona una opción</option>
+					<option value="1">Estudiante</option>
+					<option value="2">Profesor</option>
+				</select>
+<br/>
+<br/>
+				Género:
+			
+				<input type="radio" name="Genero" id="Masculino" value="1">
+				<label for="Masculino">Masculino</label>
+				
+				<input type="radio" name="Genero" id="Femenino" value="2">
+				<label for="Femenino">Femenino</label>
+				
+				<input type="radio" name="Genero" id="Otro" value="3">
+				<label for="Otro">Otro</label>
+			</fieldset>
+
+			<input type="submit" name="Envio" id="Envio" onsubmit="validar()">
+		</form>
+
+		<script type="text/javascript" src="Ej01.js"></script>
+	</body>
+</html>
